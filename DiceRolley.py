@@ -1,10 +1,10 @@
 import sys
 from random import randrange
 
-def rollD10():
+def rollD10() -> int:
     return randrange(10)
 
-def rollD100():
+def rollD100() -> int:
     return randrange(100)
 
 def roll():   
